@@ -4,6 +4,12 @@ interface BlueColorBottleInterface {
     void fillUp();
 }
 
+interface BlueColorBottleInterfaceStatic {
+    static void pourOut() {
+        System.out.println("Pouring out!");
+    }
+}
+
 public class Interfaces implements BlueColorBottleInterface {
     public static void main(String[] args) {
         System.out.println(color);
@@ -11,6 +17,8 @@ public class Interfaces implements BlueColorBottleInterface {
         Interfaces interf = new Interfaces();
 
         interf.fillUp();
+
+        BlueColorBottleInterfaceStatic.pourOut(); // static interface methods should be called directly
 
     }
 

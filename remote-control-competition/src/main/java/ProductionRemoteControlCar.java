@@ -2,10 +2,12 @@ class ProductionRemoteControlCar implements RemoteControlCar, Comparable<Product
     private int numberOfVictories = 0;
     private int distance = 0;
 
+    @Override
     public void drive() {
         this.distance += 10;
     }
 
+    @Override
     public int getDistanceTravelled() {
         return this.distance;
     }
@@ -20,6 +22,6 @@ class ProductionRemoteControlCar implements RemoteControlCar, Comparable<Product
 
     @Override
     public int compareTo(ProductionRemoteControlCar car) {
-        return this.numberOfVictories - car.numberOfVictories;
+        return this.numberOfVictories - car.getNumberOfVictories();
     }
 }

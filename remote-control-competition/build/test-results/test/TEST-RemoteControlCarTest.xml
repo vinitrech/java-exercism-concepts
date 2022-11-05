@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RemoteControlCarTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-05T13:02:53" hostname="pop-os" time="0.032">
+<testsuite name="RemoteControlCarTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-05T13:04:56" hostname="pop-os" time="0.034">
   <properties/>
-  <testcase name="race" classname="RemoteControlCarTest" time="0.029"/>
-  <testcase name="rankCars" classname="RemoteControlCarTest" time="0.001"/>
+  <testcase name="race" classname="RemoteControlCarTest" time="0.031"/>
+  <testcase name="rankCars" classname="RemoteControlCarTest" time="0.0"/>
   <testcase name="ensureCarsAreComparables" classname="RemoteControlCarTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
